@@ -49,7 +49,7 @@ const AboutMe = () => {
             I bring a <span className="font-semibold text-orange-400">problem-solving mindset and customer-centric approach</span> 
             to every project.
           </p>
-          <button className="mt-6 px-6 py-2 border border-white text-white rounded-md hover:bg-white hover:text-[#170550] transition">
+          <button className="mt-6 px-6 py-2 bg-white rounded-full  hover:bg-gray-200 transition cursor-pointer">
             Read More...
           </button>
         </div>
