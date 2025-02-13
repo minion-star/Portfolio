@@ -9,9 +9,9 @@ const Contact = () => {
                     Contact
                 </h2>
             </div>
-            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
+            <div className="w-full mx-auto flex flex-col md:flex-row gap-8 px-12">
                 {/* Contact Info */}
-                <div className="space-y-4 text-lg">
+                <div className="space-y-4 text-lg md:w-1/2 mb-16">
                     <p className="flex items-center gap-3 text-white">
                         <FaPhone className="text-xl text-gray-300" />
                         +8801863-931220 <br />
@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
 
                 {/* Contact Form */}
-                <form className="space-y-4 mb-16">
+                <form className="space-y-4  md:w-1/2  mb-16">
                     <input
                         type="text"
                         placeholder="Full Name"
