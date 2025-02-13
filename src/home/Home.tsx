@@ -1,4 +1,4 @@
-import banner from "../../public/banner.png"; // Ensure banner.png is placed inside the assets folder
+import banner from "../assets/banner.png"; // Ensure banner.png is placed inside the assets folder
 import linkedin from "../assets/linkedin-in.png";
 import github from "../assets/github.png";
 import facebook from "../assets/facebook-f.png"

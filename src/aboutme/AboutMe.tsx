@@ -12,7 +12,7 @@ const AboutMe = () => {
 
       {/* Main About Section */}
       <section
-        className="w-full flex flex-col md:flex-row items-center justify-center py-16 px-6"
+        className="w-full flex flex-col md:flex-row items-center justify-center pb-16 px-6"
         
       >
         {/* Image Section */}
