@@ -8,7 +8,7 @@ import instagram from "../assets/instagram.png"
 const Home = () => {
 
   return (
-    <section id="home" className="w-full bg-[#31065A] flex flex-col md:flex-row items-center bg-cover justify-between py-20 px-6 m-0">
+    <section id="home" className="w-full bg-[#31065A] flex flex-col md:flex-row items-center bg-cover justify-between py-16 px-6 m-0">
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left p-6">
             <h1 className="text-4xl font-bold text-white">Hi, I'm William Alderette</h1>

@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className="w-full bg-[#170550]">
       {/* Title Section - Full Width */}
       <div className="w-full text-center mb-8 md:mb-12 bg-[#170550]">
-        <h2 className="text-white text-3xl font-semibold border-b-2 border-orange-500 inline-block pb-2">
+        <h2 className="text-white text-3xl font-semibold border-b-2 border-white inline-block pb-2">
           About <span className="text-orange-500">Me</span>
         </h2>
       </div>
@@ -16,11 +16,11 @@ const AboutMe = () => {
         id="about"
       >
         {/* Image Section */}
-        <div className="w-full md:w-1/3 flex justify-center items-center">
+        <div className="w-full md:w-1/3 flex justify-center items-center px-6">
           <img
             src={photo}
             alt="Profile"
-            className="w-64 h-64 rounded-lg border-4 border-purple-500 shadow-lg"
+            className="w-full h-auto rounded-lg"
           />
         </div>
 

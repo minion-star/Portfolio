@@ -14,8 +14,8 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 left-0 bg-[#0F0036] shadow-md z-50 w-full">
-        <div className="w-full flex justify-between items-center py-3 px-5">
+    <header className="sticky top-0 left-0 bg-[#0F0036] shadow-md z-50 w-full px-6">
+        <div className="w-full flex justify-between items-center py-6 px-5">
         {/* Logo */}
         <div className="flex items-center">
           <img src="/logo.jpg" alt="Logo" className="h-10 rounded-full" />
