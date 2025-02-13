@@ -19,7 +19,11 @@ const Services = () =>{
                     {/* Service */}
                     <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-3 flex flex-col items-center rounded-2xl">
                         <img src={computer} className="h-16 w-16 mt-2" />
-                        <h4 className="text-[#31065A]">Web Development</h4>
+                        <h3 className="text-[#31065A] font-bold">Web Development</h3>
+                        <p className="text-[#31065A]">I provide custom web development services, building scalable, secure, and 
+                            high-performance websites using React, TypeScript, Node.js, and MySQL. From e-commerce platforms to enterprise solutions, 
+                            I create fast, SEO-friendly, 
+                            and user-focused applications that drive business growth. Let's build something amazing together.</p>
                     </div>
                     <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-3 flex flex-col items-center rounded-2xl">
                         <img src={mobile} className="h-16 w-16 mt-2"/>
