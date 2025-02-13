@@ -1,5 +1,5 @@
 import Header from './header/Header'
-import AboutMe from './aboutme/aboutme'
+import AboutMe from './aboutme/AboutMe'
 import Home from './home/Home'
 import './App.css'
 

@@ -2,7 +2,7 @@ import photo from "../assets/about img.png";
 
 const AboutMe = () => {
   return (
-    <div className="w-full bg-[#170550]">
+    <div className="w-full bg-[#170550]" id="about">
       {/* Title Section - Full Width */}
       <div className="w-full text-center mb-8 md:mb-12 bg-[#170550]">
         <h2 className="text-white text-3xl font-semibold border-b-2 border-white inline-block pb-2">
@@ -13,7 +13,7 @@ const AboutMe = () => {
       {/* Main About Section */}
       <section
         className="w-full flex flex-col md:flex-row items-center justify-center py-16 px-6"
-        id="about"
+        
       >
         {/* Image Section */}
         <div className="w-full md:w-1/3 flex justify-center items-center px-6">
