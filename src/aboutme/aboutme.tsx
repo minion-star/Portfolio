@@ -3,8 +3,35 @@ import linkedin from "../assets/linkedin-in.png";
 import github from "../assets/github.png";
 import facebook from "../assets/facebook-f.png"
 import instagram from "../assets/instagram.png"
+import { useState } from "react";
 
 const AboutMe = () => {
+
+    const [cvFile, setCvFile] = useState<File|null>(null);
+
+    const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const file = event.target.files?.[0]; // Get the selected file
+    
+        if (file) {
+          const reader = new FileReader();
+          reader.readAsDataURL(file); // Convert file to Base64
+          reader.onload = () => {
+            if (typeof reader.result === "string") {
+              localStorage.setItem("cvFile", reader.result); // Store in local storage
+              alert("CV uploaded and stored in local storage!");
+            }
+          };
+          reader.onerror = (error) => {
+            console.error("Error reading file: ", error);
+          };
+    
+          setCvFile(file);
+        }
+      };
+
+
+
+
   return (
     <section id="about" className="w-full bg-[#31065A] flex flex-col md:flex-row items-center bg-cover justify-between py-20 px-6 m-0">
       {/* Text Section */}
@@ -34,8 +61,17 @@ const AboutMe = () => {
             </a>
         </div>
 
+        {/* Hidden File Input */}
+        <input
+            type="file"
+            accept=".pdf,.docx"
+            id="cvInput"
+            className="hidden"
+            onChange={handleFileUpload}
+        />
+
         {/* Download CV Button */}
-        <button className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition cursor-pointer">
+        <button className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition cursor-pointer" onClick={() => document.getElementById("cvInput")?.click()}>
           Download CV
         </button>
       </div>
