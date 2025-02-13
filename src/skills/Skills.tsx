@@ -10,13 +10,13 @@ const skills = [
 
 const Skills = () => {
     return (
-        <div id="skills" className="w-full bg-[#170550]">
-            <div className="w-full text-center mb-8 md:mb-12 pt-16">
+        <div id="skills" className="w-full bg-[#170550] px-12 py-16">
+            <div className="w-full text-center mb-8 md:mb-12">
                 <h2 className="text-white text-3xl font-semibold border-b-2 border-white inline-block pb-2">
                 My <span className="text-orange-500">Skills</span>
                 </h2>
             </div>
-            <div className="space-y-4 px-12">
+            <div className="space-y-4 ">
                 {skills.map((skill, index) => (
                 <div key={index} className="w-full md:flex-row flex flex-col items-center">
                         <span className="text-sm font-medium mb-1 md:w-1/5 text-left text-white">{skill.name}</span>
