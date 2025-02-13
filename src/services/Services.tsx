@@ -1,3 +1,6 @@
+import computer from "../assets/computer.png";
+import mobile from "../assets/mobile.png";
+import digitalmarketing from "../assets/digitalmarketing.png";
 
 
 const Services = () =>{
@@ -14,8 +17,17 @@ const Services = () =>{
                     
                 >
                     {/* Service */}
-                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0">
-
+                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-1">
+                        <img src={computer} className="h-16" />
+                        <h4 className="text-[#31065A]">Web Development</h4>
+                    </div>
+                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-1">
+                        <img src={mobile} className="h-16" />
+                        <h4 className="text-[#31065A]">Web Development</h4>
+                    </div>
+                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-1">
+                        <img src={digitalmarketing} className="h-16" />
+                        <h4 className="text-[#31065A]">Web Development</h4>
                     </div>
             </section>
         </div>
