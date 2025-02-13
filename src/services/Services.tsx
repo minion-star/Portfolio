@@ -17,16 +17,16 @@ const Services = () =>{
                     
                 >
                     {/* Service */}
-                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-1 flex flex-col items-center rounded-2xl">
-                        <img src={computer} className="h-16 w-16" />
+                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-3 flex flex-col items-center rounded-2xl">
+                        <img src={computer} className="h-16 w-16 mt-2" />
                         <h4 className="text-[#31065A]">Web Development</h4>
                     </div>
-                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-1 flex flex-col items-center rounded-2xl">
-                        <img src={mobile} className="h-16 w-16" />
+                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-3 flex flex-col items-center rounded-2xl">
+                        <img src={mobile} className="h-16 w-16 mt-2"/>
                         <h4 className="text-[#31065A]">Apps Development</h4>
                     </div>
-                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-1 flex flex-col items-center rounded-2xl">
-                        <img src={digitalmarketing} className="h-16 w-16" />
+                    <div className="w-full md:w-1/3 text-center md:text-left px-6 mt-8 md:mt-0 bg-white mr-3 flex flex-col items-center rounded-2xl">
+                        <img src={digitalmarketing} className="h-16 w-16 mt-2" />
                         <h4 className="text-[#31065A]">Digital Marketing</h4>
                     </div>
             </section>
