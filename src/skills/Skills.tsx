@@ -10,7 +10,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <div id="services" className="w-full bg-[#170550]">
+        <div id="skills" className="w-full bg-[#170550]">
             <div className="w-full text-center mb-8 md:mb-12 pt-16">
                 <h2 className="text-white text-3xl font-semibold border-b-2 border-white inline-block pb-2">
                 My <span className="text-orange-500">Skills</span>
