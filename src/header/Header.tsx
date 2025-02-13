@@ -1,24 +1,24 @@
 import { useState } from "react";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState("Home");
 
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About Me", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Skills", href: "#skills" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "home" },
+    { name: "About Me", href: "about" },
+    { name: "Services", href: "services" },
+    { name: "Skills", href: "skills" },
+    { name: "Portfolio", href: "portfolio" },
+    { name: "Contact", href: "contact" },
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#0F0036] shadow-md z-50" id="home">
-      <div className="container mx-auto flex justify-between items-center py-3 px-5">
+    <header className="sticky top-0 left-0 bg-[#0F0036] shadow-md z-50 w-full">
+        <div className="w-full flex justify-between items-center py-3 px-5">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="logo.png" alt="Logo" className="h-10" />
+          <img src="/logo.jpg" alt="Logo" className="h-10 rounded-full" />
         </div>
 
         {/* Navigation */}
