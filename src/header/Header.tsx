@@ -30,8 +30,8 @@ const Header = () => {
               smooth={true}
               duration={500}
               onSetActive={() => setActiveSection(item.name)}
-              className={`cursor-pointer text-white hover:text-orange-400 transition ${
-                activeSection === item.name ? "text-orange-400" : ""
+              className={`cursor-pointer text-white hover:text-orange-500 transition ${
+                activeSection === item.name ? "text-orange-500" : ""
               }`}
             >
               {item.name}
