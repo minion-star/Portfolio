@@ -3,8 +3,8 @@ import photo from "../assets/about img.png";
 const AboutMe = () => {
   return (
     <div className="w-full bg-[#170550]" id="about">
-      {/* Title Section - Full Width */}
-      <div className="w-full text-center mb-8 md:mb-12 bg-[#170550]">
+      {/* Title Section */}
+      <div className="w-full text-center mb-8 md:mb-12 p-16" >
         <h2 className="text-white text-3xl font-semibold border-b-2 border-white inline-block pb-2">
           About <span className="text-orange-500">Me</span>
         </h2>
