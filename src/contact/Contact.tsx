@@ -14,16 +14,16 @@ const Contact = () => {
                 <div className="space-y-4 text-lg md:w-1/2 mb-16">
                     <p className="flex items-center gap-3 text-white">
                         <FaPhone className="text-xl text-gray-300" />
-                        +8801863-931220 <br />
-                        +8801567-953483
+                        +1801863-931220 <br />
+                        +1801567-953483
                     </p>
                     <p className="flex items-center gap-3 text-white">
                         <FaEnvelope className="text-xl text-gray-300" />
-                        mdrielad.bdg@gmail.com
+                        williamalderette799@gmail.com
                     </p>
                     <p className="flex items-center gap-3 text-white">
                         <FaMapMarkerAlt className="text-xl text-gray-300" />
-                        Zirabo, Ashulia, Savar, Dhaka
+                        Tacoma, WA, US
                     </p>
                 </div>
 
