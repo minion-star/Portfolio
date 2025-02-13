@@ -27,23 +27,33 @@ const AboutMe = () => {
         {/* Text Section */}
         <div className="w-full md:w-2/3 text-center md:text-left px-6 mt-8 md:mt-0">
           <h3 className="text-xl md:text-2xl font-bold text-white">
-            Frontend Developer & Graphic Designer
+            Full Stack Developer
           </h3>
           <p className="mt-4 text-gray-300 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-            reiciendis, quas voluptatem facere quam iusto itaque sapiente dolor
-            provident aspernatur unde, suscipit illum, velit similique animi
-            iste corporis repellendus veritatis minus.
+            I am a highly skilled <span className="font-semibold text-orange-400">Full Stack Developer</span> with expertise in building 
+            scalable, high-performance web and mobile applications. With a strong background in 
+            <span className="font-semibold text-orange-400"> React, TypeScript, Tailwind CSS, Node.js, Express, and MySQL</span>, I specialize 
+            in delivering seamless user experiences and robust backend solutions.
           </p>
           <p className="mt-4 text-gray-300 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-            reiciendis, quas voluptatem facere quam iusto itaque sapiente dolor
-            provident.
+            I have developed numerous websites across diverse industries, including 
+            <span className="font-semibold text-orange-400"> e-commerce, healthcare, and fintech</span>, ensuring secure, 
+            efficient, and user-friendly digital solutions. My technical expertise spans 
+            <span className="font-semibold text-orange-400"> frontend development, backend architecture, database management, 
+            and API integrations</span>, allowing me to build end-to-end applications tailored to client needs.
+          </p>
+          <p className="mt-4 text-gray-300 leading-relaxed">
+            With a keen eye for <span className="font-semibold text-orange-400">design and performance optimization</span>, 
+            I am passionate about creating modern, responsive, and intuitive web applications that drive business success. 
+            Whether it's developing complex dashboards, secure payment systems, or AI-powered solutions, 
+            I bring a <span className="font-semibold text-orange-400">problem-solving mindset and customer-centric approach</span> 
+            to every project.
           </p>
           <button className="mt-6 px-6 py-2 border border-white text-white rounded-md hover:bg-white hover:text-[#170550] transition">
             Read More...
           </button>
         </div>
+
       </section>
     </div>
   );

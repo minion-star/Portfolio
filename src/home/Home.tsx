@@ -13,11 +13,11 @@ const Home = () => {
         <div className="w-full md:w-1/2 text-center md:text-left p-6">
             <h1 className="text-4xl font-bold text-white">Hi, I'm William Alderette</h1>
             <h2 className="text-2xl font-semibold text-orange-500 mt-2">
-            Frontend Developer
+            Full Stack Developer
             </h2>
             <p className="mt-4 text-lg text-white">
-            I am a passionate frontend developer with experience in building modern, responsive, and user-friendly websites.
-            I specialize in React, Tailwind CSS, and modern UI frameworks.
+            I am a passionate full stack developer with experience in building modern, responsive, and user-friendly websites.
+            I specialize in React/Typescript, Tailwind CSS, Nodejs, Django, Flask and modern UI frameworks.
             </p>
 
             {/* Social Links */}
