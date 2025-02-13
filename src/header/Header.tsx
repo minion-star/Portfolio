@@ -40,7 +40,7 @@ const Header = () => {
         </nav>
 
         {/* Hire Me Button */}
-        <button className="bg-white text-[#0F0036] px-5 py-2 rounded-full font-semibold hover:bg-gray-200">
+        <button className="bg-white text-[#0F0036] px-5 py-2 rounded-full font-semibold hover:bg-gray-200 cursor-pointer">
           Hire me
         </button>
       </div>
