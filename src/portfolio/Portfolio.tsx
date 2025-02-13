@@ -34,10 +34,10 @@ const Portfolio = () => {
                         <img
                         src={item.imgSrc}
                         alt={`Portfolio ${item.id}`}
-                        className="w-full h-full object-cover rounded-lg"
+                        className="w-full h-full object-cover rounded-lg "
                         />
                         {item.title && (
-                        <div className="absolute inset-0 bg-purple-600 bg-opacity-75 flex flex-col items-center justify-center opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-lg">
+                        <div className="absolute inset-0 bg-purple-600 bg-opacity-75 flex flex-col items-center justify-center opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-lg cursor-pointer">
                             <FaExternalLinkAlt className="text-white text-xl mb-2" />
                             <p className="text-white font-semibold">{item.title}</p>
                         </div>

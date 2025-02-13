@@ -4,6 +4,7 @@ import Home from './home/Home'
 import Services from './services/Services'
 import Skills from './skills/Skills'
 import Portfolio from './portfolio/Portfolio'
+import Contact from './contact/contact'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services/>
       <Skills/>
       <Portfolio/>
+      <Contact/>
     </>
   )
 }
