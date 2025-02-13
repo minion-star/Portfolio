@@ -1,6 +1,7 @@
 import Header from './header/Header'
 import AboutMe from './aboutme/AboutMe'
 import Home from './home/Home'
+import Services from './services/Services'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Home/>
       <AboutMe/>
+      <Services/>
     </>
   )
 }
