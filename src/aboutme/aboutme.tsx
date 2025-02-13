@@ -35,7 +35,7 @@ const AboutMe = () => {
         </div>
 
         {/* Download CV Button */}
-        <button className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition">
+        <button className="mt-6 px-6 py-3 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition cursor-pointer">
           Download CV
         </button>
       </div>
