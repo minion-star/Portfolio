@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import { Link } from "react-scroll";
 import { HiMenu, HiX } from "react-icons/hi";
 
@@ -14,6 +14,7 @@ const Header = () => {
     { name: "Portfolio", href: "portfolio" },
     { name: "Contact", href: "contact" },
   ];
+
 
   return (
     <header className="sticky top-0 left-0 bg-[#0F0036] shadow-md z-50 w-full px-6">
@@ -33,7 +34,7 @@ const Header = () => {
               duration={500}
               onSetActive={() => setActiveSection(item.name)}
               className={`cursor-pointer text-white hover:text-orange-500 transition ${
-                activeSection === item.name ? "text-orange-500" : ""
+                activeSection === item.href ? "text-orange-500" : ""
               }`}
             >
               {item.name}
@@ -59,11 +60,11 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 onClick={() => {
-                  setActiveSection(item.name);
+                  setActiveSection(item.href);
                   setIsMenuOpen(false);
                 }}
                 className={`block py-2 text-white cursor-pointer hover:text-orange-500 transition ${
-                  activeSection === item.name ? "text-orange-500" : ""
+                  activeSection === item.href ? "text-orange-500" : ""
                 }`}
               >
                 {item.name}

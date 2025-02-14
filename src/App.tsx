@@ -9,19 +9,20 @@ import Footer from './footer/Footer'
 import './App.css'
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <Home/>
-      <AboutMe/>
-      <Services/>
-      <Skills/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+      <Header />
+      <main>
+        <section id="home"><Home /></section>
+        <section id="about"><AboutMe /></section>
+        <section id="services"><Services /></section>
+        <section id="skills"><Skills /></section>
+        <section id="portfolio"><Portfolio /></section>
+        <section id="contact"><Contact /></section>
+      </main>
+      <Footer />
     </>
   )
 }
 
-export default App
+export default App;
